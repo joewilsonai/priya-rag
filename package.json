@@ -1,0 +1,32 @@
+{
+  "name": "priya-rag",
+  "version": "0.1.0",
+  "description": "Personal Knowledge Agent — Sprint 02 / Code / Advanced sample build for AI Builders Club. RAG pipeline over fictional consultant Priya Banerjee's Notion + Gmail + Drive + Slack archive.",
+  "type": "module",
+  "scripts": {
+    "ingest": "bun src/ingest.ts",
+    "ask": "bun src/cli.ts ask"
+  },
+  "dependencies": {
+    "openai": "^4.77.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "bun": ">=1.1.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PoliTwit1984/priya-rag"
+  },
+  "keywords": [
+    "rag",
+    "claude-code",
+    "embeddings",
+    "ai-builders-club",
+    "personal-knowledge"
+  ]
+}
